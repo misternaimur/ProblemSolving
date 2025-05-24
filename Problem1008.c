@@ -14,9 +14,8 @@ int main()
         int Employee_Number,Ammount;
         float  Working_Hour , SALARY;
         scanf("%d\n",&Employee_Number);
+         scanf("%d\n",&Ammount);
           scanf("%f",&Working_Hour);
-        scanf("%d\n",&Ammount);
-         // scanf("%f",&Working_Hour);
 
           SALARY = (float)Ammount*Working_Hour;
 
